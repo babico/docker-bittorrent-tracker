@@ -2,7 +2,7 @@
 
 ### INSTALL
 `git clone https://github.com/babico/docker-bittorrent-tracker.git`
-`sudo docker build -t babico_tracker .``
+`sudo docker build -t babico_tracker .`
 
 
 ### RUN
