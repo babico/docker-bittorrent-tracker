@@ -1,6 +1,6 @@
 FROM node
 
-RUN npm install bittorrent-tracker -g
+RUN npm install -g bittorrent-tracker
 
 EXPOSE 8000 8000/udp
 
