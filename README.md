@@ -4,4 +4,4 @@
 `sudo docker build -t babico/tracker .`
 
 ### RUN
-`sudo docker run -d -i -t -p 8000:8000 tracker`
+`sudo docker run -d -i -p 8000:8000 -t tracker`
