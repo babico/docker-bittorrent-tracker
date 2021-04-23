@@ -5,3 +5,6 @@
 
 ### RUN
 `sudo docker run -d -t babico_tracker -i -p 8000:8000`
+
+### LOGS
+`sudo docker-compose logs -f [CONTAINER ID]`
