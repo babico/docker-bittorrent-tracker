@@ -10,7 +10,7 @@ sudo docker build -t babico_tracker .
 
 ### RUN
 ```
-sudo docker run -dp 8000:8000 babico_tracker
+sudo docker run -dp --restart unless-stopped 8000:8000 babico_tracker
 ```
 
 ### LOGS
