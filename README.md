@@ -15,5 +15,5 @@ sudo docker run --restart unless-stopped --name babico_tracker -dp 8000:8000 bab
 
 ### LOGS
 ```
-sudo docker logs --name babico_tracker
+sudo docker logs -f babico_tracker
 ```
